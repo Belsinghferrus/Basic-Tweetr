@@ -1,0 +1,52 @@
+body{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/644/305/118/pattern-black-gradient-texture-wallpaper-preview.jpg');
+    background-size: cover; /* Adjust as needed */
+      background-position: center; /* Adjust as needed */
+      background-repeat: no-repeat;
+      background-color: black;
+}
+.title{
+    color: white;
+    text-align: center;
+}
+
+.tweetBox{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+    width: 200px; 
+}
+.tweeted{
+    color: #fff;
+}
+.btnSubmit{
+    background-color: grey;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.tweetFullBox{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 200px;
+    
+}
+
+.tweetsgrid {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
